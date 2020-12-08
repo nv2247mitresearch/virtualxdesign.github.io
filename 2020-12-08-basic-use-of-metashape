@@ -1,0 +1,13 @@
+****Basic Steps to Create a Photogrammetry Model in Agisoft Metashape****
+
+**6 steps:**
+1. Workflow/Add Folder/Open Folder (select the folder with yoiur project pictures)
+2. Workflow/Align Photos/Medium or High and Generic Preselection
+3. Workflow/Build Dense Cloud/Medium
+4. Workflow/Build Mesh/Medium
+5. Build Texture/ 4096x1
+6. File/Export Model as obj and select texture
+7. Model (.obj, .mtl, .jpeg) can be imported in Unity, Rhino3D, 3DsMax, etc
+
+note: It is recommended to select low or lowest in all settings and run through all the steps so that you can test whether your dataset is complete.
+Then you can re-run steps 1-6 with higher settings based on the computational power of your computer. Certain steps are GPU-intensive or CPU-intensive.
