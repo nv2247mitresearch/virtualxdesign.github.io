@@ -24,3 +24,7 @@ with the subsequent one. The produced dataset is then processed in a photogramme
 2. Slowly fly over the area of capturing to confirm obstacles or limitations of the environment around the structure.
 
 **-- Scanning:** 
+1. Start taking pictures sequentially in a consintent fashion following an intuitive pattern. For instance, you start from left to right for each side of a structure or a building facade. As it is mentioned above, each pitcure need to have a 50-60% overlap with the subsequent one. 
+2. Once you have completed scanning the structure, you start taking pictures from a greater distance in a way that less pictures are required for scanning the entire structure. This is very important for the model ccreation since there is a chance the pictures taken from closer distance to have missing portions. Therefore, the photogrammetry software will still have information combining pictures from different angles and distances.
+3. Oversaturated pictures or very dark pictures might negatively affect the model quality. So, it is recommended to keep consistency on the color balance in the dataset. 
+4. Daylight ... in progress
